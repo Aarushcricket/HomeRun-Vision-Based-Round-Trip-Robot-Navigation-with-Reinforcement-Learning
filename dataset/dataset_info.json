@@ -1,0 +1,26 @@
+{
+  "transitions": 200000,
+  "finished_episodes": 1426,
+  "goal_reached_episodes": 1381,
+  "success_rate_percent": 96.8,
+  "mean_episode_reward": -8.64,
+  "behaviour_policy": "ppo",
+  "random_action_probability": 0.2,
+  "observation_columns": [
+    "goal_offset",
+    "goal_closeness",
+    "goal_visible",
+    "obst_left",
+    "obst_center",
+    "obst_right",
+    "phase",
+    "last_left",
+    "last_right"
+  ],
+  "actions": {
+    "0": "forward",
+    "1": "turn left",
+    "2": "turn right"
+  },
+  "seconds_to_collect": 634.7
+}

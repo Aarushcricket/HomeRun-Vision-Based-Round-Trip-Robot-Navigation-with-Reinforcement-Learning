@@ -1,0 +1,4 @@
+Algorithm,Round trip %,Target %,Steps GO,Steps RETURN,Collisions,Path (m),Time (s),Train (min)
+Q-Learning,100%,100%,763.0,184.0,0.0,19.3,44.8,19.36
+PPO,100%,100%,50.0,134.0,0.0,14.5,8.6,30.08
+Offline Q-Learning,100%,100%,328.0,109.0,0.0,10.0,20.4,0.34
